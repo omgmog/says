@@ -19,6 +19,7 @@
       $x = 20;
       $y = 100;
       $fontsize = 20;
+    break;
     case 'ruth':
       $file = 'ruth.png';
       $x = 120;
