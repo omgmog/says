@@ -14,8 +14,25 @@
       $y = 100;
       $fontsize = 30;
     break;
+    case 'ryan':
+      $file = 'ryan.png';
+      $x = 20;
+      $y = 100;
+      $fontsize = 20;
+    case 'ruth':
+      $file = 'ruth.png';
+      $x = 120;
+      $y = 120;
+      $fontsize = 20;
+    break;
+    case 'pete':
+      $file = 'pete.png';
+      $x = 60;
+      $y = 100;
+      $fontsize = 30;
+    break;
     default:
-      $file = 'generic.png';
+      $file = 'template.png';
       $x = 200;
       $y = 50;
       $fontsize = 30;
@@ -30,3 +47,4 @@
   header('Content-Type: image/png');
   imagepng($im);
   imagedestroy($im);
+  
